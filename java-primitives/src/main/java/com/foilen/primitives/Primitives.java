@@ -10,7 +10,6 @@ public class Primitives {
 
         overflow();
 
-        floatingRounding();
     }
 
     private static void castingAndOperations() {
@@ -64,11 +63,4 @@ public class Primitives {
 
     }
 
-    private static void floatingRounding() {
-
-        System.out.println("---[floatingRounding]---");
-
-        System.out.println(0.1f);
-        System.out.println(1f / 10f);
-    }
 }
